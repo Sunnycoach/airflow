@@ -1,0 +1,5 @@
+{"timestamp":"2026-04-13T22:07:01.732886Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-13T22:07:01.739320Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/15_assetsDependentDags.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-13T22:07:02.004183Z","level":"info","event":"This is my final data asset","logger":"task.stdout"}
+{"timestamp":"2026-04-13T22:07:02.011625Z","level":"info","event":"data written to /opt/airflow/logs/data/final.txt","logger":"task.stdout"}
+{"timestamp":"2026-04-13T22:07:02.011675Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.sdk.definitions.asset.decorators._AssetMainOperator","filename":"python.py","lineno":229}
